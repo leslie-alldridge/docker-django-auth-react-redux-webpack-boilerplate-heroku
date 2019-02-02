@@ -1,4 +1,5 @@
 node_modules
+fontend/static/frontend/main.js
 ### Django ###
 *.log
 *.pot
