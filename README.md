@@ -14,7 +14,7 @@
 ## Breakdown of files
 
 - /frontend <- contains all of the React frontend code
-- /leadmanager <- main python application
+- /app <- main python application
 - /accounts <- code related to users/auth
 - All of the other files should be self explanatory - reach out if you get stuck though
 
