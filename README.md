@@ -20,6 +20,23 @@
 
 ## Run locally and Deploy to Heroku using Heroku CLI
 
+Note: The code will change between local/deployed version in the following files:
+
+Dockerfile
+
+```
+heroku is:   CMD python3 manage.py runserver 0.0.0.0:$PORT
+local is:    CMD python3 manage.py runserver
+```
+
+docker-compose.yaml
+
+```
+heroku is:   command: python manage.py runserver 0.0.0.0:$PORT --noreload
+local is:    command: python manage.py runserver
+
+```
+
 1. Follow the steps here to spin up a local docker container running Django https://docs.docker.com/compose/django/
 2. Replace the contents of your project folder with the contents of this repository
 3. Because your code has changed, run
