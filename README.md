@@ -1,5 +1,7 @@
 # This app is ready for deployment to Heroku (deployed 03/02/2019)
 
+Link (allow 20 seconds for it to load if server has idled) https://boilerplate-dj-react.herokuapp.com/#/login
+
 ## Technology
 
 - Docker
