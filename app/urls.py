@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('', include('frontend.urls')),
     path('', include('accounts.urls')),
+    path('rest-auth/', include('rest_auth.urls')),
 ]
