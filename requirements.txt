@@ -3,7 +3,7 @@ astroid==2.1.0
 autopep8==1.4.3
 cffi==1.11.5
 colorama==0.4.1
-cryptography==3.3.2
+cryptography==39.0.1
 dj-database-url==0.5.0
 Django==2.2.28
 django-heroku==0.3.1
